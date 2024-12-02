@@ -1,0 +1,14 @@
+.button{
+    display: inline;
+    padding: 5px 10px;
+    border: 1px solid rgb(233, 35, 233);
+    color: rgb(233, 35, 233);
+
+
+    background-color: rgba(0,0,0, 0.9);
+    transition: all 0.5s ease;
+    &:hover{
+        background-color: black;
+        font-size: 20px;
+    }
+}
